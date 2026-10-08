@@ -1,0 +1,19 @@
+{
+  "model": "alibaba/wan-3.0-prime/text-to-video",
+  "seed": 2025,
+  "style": "photorealistic documentary footage, handheld phone camera feel, natural daylight, realistic scale and shadows, no text, no captions",
+  "defaults": {
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": 5,
+    "generate_audio": true
+  },
+  "scenes": [
+    {"id": "d01", "prompt": "Rush hour on a busy city highway, a huge Brachiosaurus slowly steps over the traffic while cars honk and drivers film it from their windows"},
+    {"id": "d02", "prompt": "School pickup outside a suburban elementary school, parents wait on the curb while a friendly Triceratops grazes on the front lawn and children wave"},
+    {"id": "d03", "prompt": "Crowded beach on a sunny day, a Spinosaurus wades through the shallow surf near sunbathers and lifeguards, people run and laugh"},
+    {"id": "d04", "prompt": "Downtown crosswalk at a red light, a pack of small Velociraptors waits at the curb with pedestrians, then they cross when the light turns green"},
+    {"id": "d05", "prompt": "Drive-through at a fast food restaurant, a giant T-Rex leans its head down to the order window while the stunned cashier hands out a paper bag"},
+    {"id": "d06", "prompt": "Wide aerial shot of a modern city skyline at golden hour, herds of long-necked dinosaurs walk between the skyscrapers and flocks of Pterodactyls circle overhead"}
+  ]
+}
