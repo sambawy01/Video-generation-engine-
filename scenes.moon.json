@@ -1,19 +1,38 @@
 {
   "model": "alibaba/wan-3.0-prime/text-to-video",
   "seed": 3030,
-  "style": "photorealistic documentary footage, handheld phone camera feel, an enormous detailed Moon filling a large part of the sky with visible craters, realistic scale and lighting, no text, no captions",
+  "style": "GLOBAL LOOK (identical in every shot of this series): ultra-realistic cinematic documentary footage, shot on ARRI Alexa 35 with Cooke S7/i spherical prime lenses, vertical 9:16 framing, natural handheld micro-movement, subtle 35mm film grain, high dynamic range with rich shadow detail and no clipped highlights. Colour grade: cool silver-blue moonlight with deep teal shadows, small warm tungsten-orange practical lights as contrast, natural skin tones, gentle halation on bright lights. THE MOON, identical in every shot: appears exactly ten times wider than the real Moon, about three fingers wide at arm's length, full and bright, pale silver-grey with large dark basalt seas and sharp bright crater rims with long ray streaks, extremely detailed surface texture, soft glow in the surrounding sky, always the brightest object in frame. Realistic physics, accurate scale, sharp focus on the main subject, natural motion blur, stable temporal consistency, no flicker. No text, no letters, no logos, no readable signs, no watermark, no subtitles, no captions, no extra limbs, no distorted faces.",
   "defaults": {
     "aspect_ratio": "9:16",
-    "resolution": "720p",
+    "resolution": "1080p",
     "duration": 5,
-    "generate_audio": true
+    "generate_audio": true,
+    "enable_thinking": true
   },
   "scenes": [
-    {"id": "m01", "prompt": "Dusk on a crowded beach, an enormous Moon rises over the ocean looking ten times bigger than normal, its craters clearly visible, people stop and stare up in awe"},
-    {"id": "m02", "prompt": "Night in a coastal town, a giant tide surges up a city street under the huge Moon, water flooding past parked cars and shop fronts while people wade and film it"},
-    {"id": "m03", "prompt": "A rocket launches from a city rooftop launch pad at night, rising toward the giant glowing Moon, onlookers on neighboring rooftops cheer"},
-    {"id": "m04", "prompt": "Inside a cozy bedroom at night, two kids kneel at a window pointing at the giant Moon filling the sky, its craters lit silver and reflected in their eyes"},
-    {"id": "m05", "prompt": "Quiet suburban street at night, the huge Moon lights everything bright as day, long soft shadows, neighbors sit on porches and children play under it"},
-    {"id": "m06", "prompt": "Wide aerial shot over a coastal city at night, the gigantic Moon hangs low above the skyline with a glowing reflection stretching across the sea, tides lapping at the streets"}
+    {
+      "id": "m01",
+      "prompt": "SHOT 1 - ESTABLISHING, CROWDED BEACH AT DUSK. Lens: 24mm wide, camera at chest height, slow steady push-in toward the water over 5 seconds, slight handheld sway. Setting: a wide sandy public beach just after sunset, blue hour, perhaps forty people scattered along the shoreline, calm shallow surf, beach umbrellas folded, a lifeguard tower in the background. Action: at 0-2 seconds the enormous Moon is already rising over the horizon of the sea, filling the top third of the frame; at 2-5 seconds the crowd stops what they are doing and turns to look up, a woman in a yellow sundress lowers her phone slowly, a father lifts a small child onto his shoulders, everyone silhouetted against the glowing sea. Lighting: the giant Moon is the key light, casting a bright silver path across the water and cool rim light on faces and wet sand, last warm orange afterglow low on the horizon. Atmosphere: thin sea mist, wet reflective sand. Audio: soft waves, distant murmuring crowd falling quiet, a low deep ambient hum rising, a few gasps."
+    },
+    {
+      "id": "m02",
+      "prompt": "SHOT 2 - GIANT TIDE FLOODS A STREET AT NIGHT. Lens: 35mm, camera at knee height low angle, handheld, slow track backwards along the street as the water advances toward the camera over 5 seconds. Setting: a narrow coastal town street at night, closed shop fronts with warm glowing windows, parked cars, old street lamps, brick pavement. Action: at 0-2 seconds a glassy wall of seawater rolls in from the end of the street, reflecting the huge Moon; at 2-5 seconds the water floods ankle to knee deep past the camera and around the cars, a few residents in rain jackets wade out and film with their phones, a small dog paddles by. Lighting: strong cool moonlight from above and behind, warm tungsten glow from shop windows reflecting in the moving water, bright specular highlights on ripples. Atmosphere: spray and light mist, drifting foam. Audio: rushing water, sloshing around car tyres, distant car alarm, murmurs of people, deep low rumble of the tide."
+    },
+    {
+      "id": "m03",
+      "prompt": "SHOT 3 - ROOFTOP ROCKET LAUNCH. Lens: 28mm wide, camera on a rooftop looking up at a steep low angle, locked handheld, tilting up smoothly with the rocket over 5 seconds. Setting: a flat city rooftop at night with a small private launch pad, a slim white two-metre rocket with no markings, neighbouring rooftops with water tanks and string lights, a dense skyline behind. Action: at 0-1 seconds ignition flash and billowing white smoke; at 1-5 seconds the rocket lifts off and accelerates straight up on a bright orange and white flame trail toward the enormous Moon that fills the upper half of the frame, people on neighbouring rooftops cheer and raise their arms, sparks and embers drift down. Lighting: hot orange exhaust light against cool silver moonlight, strong contrast, glowing smoke lit from below. Atmosphere: dense exhaust smoke, floating embers. Audio: sharp ignition crack, rising roar, cheering and whistling from rooftops, wind, deep bass fading as the rocket climbs."
+    },
+    {
+      "id": "m04",
+      "prompt": "SHOT 4 - CHILDREN AT THE BEDROOM WINDOW. Lens: 50mm, shallow depth of field at f/2, camera at the children's eye level behind and slightly to the side of them, very slow dolly-in over 5 seconds. Subjects: two siblings, a girl of about nine with a dark braid and a boy of about six with short curly hair, both in soft grey cotton pyjamas, kneeling on a bed with their palms on the window glass, seen from behind and in soft three-quarter profile. Setting: a cosy child's bedroom at night, a patterned quilt, a few books and a small globe on the sill, the window open to a view of the enormous glowing Moon with every crater clearly visible. Action: at 0-2 seconds they stare in silence; at 2-5 seconds the girl points at a large crater and whispers to her brother who nods in wonder. Lighting: the Moon floods the room with cool silver light across their hair and shoulders, a small warm bedside lamp glowing softly behind, gentle bokeh. Audio: very quiet room tone, soft whispering voices, faint distant waves, a calm low ambient tone."
+    },
+    {
+      "id": "m05",
+      "prompt": "SHOT 5 - SUBURBAN STREET LIT BY THE MOON. Lens: 35mm, camera at eye level, slow lateral glide to the right along a pavement over 5 seconds, gimbal-smooth with slight organic sway. Setting: a quiet suburban cul-de-sac at night, two-storey houses with trimmed hedges and porches, parked cars, no street lamps on. Action: neighbours sit on porch steps sharing blankets and mugs, a man on a ladder points a telescope at the sky, two children chase each other across a lawn casting long sharp shadows, a teenager films the sky from a bicycle. Lighting: the huge Moon makes the whole street bright almost like a cloudy day, crisp long blue-white shadows on the asphalt and soft silver rim light on every person, warm yellow porch light spill from open doors. Atmosphere: clear air, slight dew shine on the grass. Audio: crickets, soft laughter, children's footsteps on grass, a distant dog barking, calm warm ambient tone."
+    },
+    {
+      "id": "m06",
+      "prompt": "SHOT 6 - FINAL AERIAL OVER THE COASTAL CITY. Lens: 24mm wide on a drone, altitude about 150 metres, camera slowly ascending and tilting up from the rooftops to the horizon over 5 seconds, perfectly stabilised. Setting: a dense coastal city of glass towers and low brick buildings along a bay at night, thousands of warm window lights, the ocean on the right. Action: at 0-2 seconds the city lights glow below with water gently lapping at the lowest streets near the harbour; at 2-5 seconds the camera rises to reveal the gigantic Moon hanging low and enormous directly above the skyline, dominating the upper half of the frame, its long silver reflection stretching across the water to the shore, small boats floating in the flooded harbour. Lighting: cool silver moonlight over the whole scene, thousands of tiny warm orange city lights as contrast, soft bloom on the brightest highlights. Atmosphere: faint high haze, calm. Audio: wide deep ambient drone, distant city hum, gentle waves, a soft swelling cinematic tone at the end."
+    }
   ]
 }
