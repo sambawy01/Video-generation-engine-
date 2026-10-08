@@ -1,0 +1,21 @@
+{
+  "model": "REPLACE_WITH_HIGGSFIELD_VIDEO_MODEL_ID",
+  "seed": 1234,
+  "reference_argument": "image_url",
+  "style": "cinematic, soft golden-hour lighting, 35mm film grain, consistent color grade",
+  "defaults": {
+    "aspect_ratio": "16:9",
+    "duration": 5
+  },
+  "characters": {
+    "anna": {
+      "description": "woman in her 30s, short black hair, green wool coat, silver round glasses",
+      "reference": "refs/anna.png"
+    }
+  },
+  "scenes": [
+    {"id": "s01", "prompt": "Anna walks through a foggy harbor market at dawn", "characters": ["anna"]},
+    {"id": "s02", "prompt": "Close-up of Anna reading a letter, rain on the window behind her", "characters": ["anna"]},
+    {"id": "s03", "prompt": "Wide shot of the empty harbor as a ferry leaves", "arguments": {"duration": 8}}
+  ]
+}
