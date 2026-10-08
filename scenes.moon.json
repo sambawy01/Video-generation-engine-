@@ -1,0 +1,19 @@
+{
+  "model": "alibaba/wan-3.0-prime/text-to-video",
+  "seed": 3030,
+  "style": "photorealistic documentary footage, handheld phone camera feel, an enormous detailed Moon filling a large part of the sky with visible craters, realistic scale and lighting, no text, no captions",
+  "defaults": {
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": 5,
+    "generate_audio": true
+  },
+  "scenes": [
+    {"id": "m01", "prompt": "Dusk on a crowded beach, an enormous Moon rises over the ocean looking ten times bigger than normal, its craters clearly visible, people stop and stare up in awe"},
+    {"id": "m02", "prompt": "Night in a coastal town, a giant tide surges up a city street under the huge Moon, water flooding past parked cars and shop fronts while people wade and film it"},
+    {"id": "m03", "prompt": "A rocket launches from a city rooftop launch pad at night, rising toward the giant glowing Moon, onlookers on neighboring rooftops cheer"},
+    {"id": "m04", "prompt": "Inside a cozy bedroom at night, two kids kneel at a window pointing at the giant Moon filling the sky, its craters lit silver and reflected in their eyes"},
+    {"id": "m05", "prompt": "Quiet suburban street at night, the huge Moon lights everything bright as day, long soft shadows, neighbors sit on porches and children play under it"},
+    {"id": "m06", "prompt": "Wide aerial shot over a coastal city at night, the gigantic Moon hangs low above the skyline with a glowing reflection stretching across the sea, tides lapping at the streets"}
+  ]
+}
