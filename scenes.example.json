@@ -1,16 +1,16 @@
 {
-  "model": "REPLACE_WITH_HIGGSFIELD_VIDEO_MODEL_ID",
+  "model": "alibaba/wan-3.0-prime/text-to-video",
   "seed": 1234,
-  "reference_argument": "image_url",
   "style": "cinematic, soft golden-hour lighting, 35mm film grain, consistent color grade",
   "defaults": {
     "aspect_ratio": "16:9",
-    "duration": 5
+    "resolution": "720p",
+    "duration": 5,
+    "generate_audio": true
   },
   "characters": {
     "anna": {
-      "description": "woman in her 30s, short black hair, green wool coat, silver round glasses",
-      "reference": "refs/anna.png"
+      "description": "woman in her 30s, short black hair, green wool coat, silver round glasses"
     }
   },
   "scenes": [
